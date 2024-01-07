@@ -172,3 +172,4 @@ setTimeout(function () {
   console.log("Time is up!"); // 콜백 함수로 콘솔에 메시지 출력
 }, 3000);
 ```
+
