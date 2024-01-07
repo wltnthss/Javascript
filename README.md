@@ -173,3 +173,12 @@ setTimeout(function () {
 }, 3000);
 ```
 
+**location.href, location.replace() 차이**
+
+* 자바스크립트를 이용해 지정한 URL로 이동할 때에는 많은 방법이 있습니다.
+* 그 중에서도 자주 쓰이는 location.href와 location.replace() 차이를 알아보겠습니다.
+
+![Alt text](image.png)
+
+* 일반적으로는 location.href로 지정한 URL로 이동하는 방법을 많이 사용하지만 예외의 케이스에는 location.replace()를 사용합니다.
+* 쇼핑몰 결제 프로세스나, 중요 정보를 변경 후 다른 URL로 이동하게 되는 경우에는 location.replace()를 이용해 정보나 값은 변경하는 페이지를 뒤로가기로 접근할 수 없도록 막아야 합니다.
